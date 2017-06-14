@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <style>
+        body{
+            background-color:  #66ffff;
+        }
+        h2{
+            font-size: 25px;
+            text-align: center;
+            /*font-family: "Comic Sans MS";*/
+        }
+        h3{
+            font-size: 35px;
+            text-align: center;
+            margin: auto;
+        }
+        form{
+            margin-left: 350px;
+            margin-top: 25px;
+        }
+        h1{
+            font-size: 15px;
+            text-align: center;
+            position: fixed;
+            top: 150px;
+            left: 650px;
+        }
+        #maakkeuze{
+            font-size: 75px;
+            position: absolute;
+            padding-left: 375px;
+            padding-right: 375px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: indianred;
+        }
+
+    </style>
+</head>
+<body>
+
+    <form action="RPS.php" method="post">
+        <input type="image" src="steen.png" value="0" name="keuze">
+        <input type="image" src="papier.png" value="1" name="keuze">
+        <input type="image" src="schaar.png" value="2" name="keuze">
+        <input type="submit" name="reset" value=" reset ">
+    </form>
+
+</body>
+</html>
